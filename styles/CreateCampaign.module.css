@@ -1,0 +1,129 @@
+
+.main_campaign{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(251, 247, 247); */
+}
+.campaign_head{
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: -3rem;
+    margin-top: 3rem;
+}
+
+.campaign_form{
+    /* background-color: yellow; */
+
+    width: 46vw;
+    /* height: 70vh; */
+    border: 1px solid rgb(183, 179, 179);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 30px;
+    margin: 2rem auto 1rem auto;
+    box-shadow: 10px 10px 20px  rgba(181, 178, 178, 0.781);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    font-size: 26px;
+    color: rgb(33, 33, 33);
+
+}
+
+.group{
+    /* padding: px; */
+
+}
+
+.input{
+    width: 95%;
+    margin: 20px;
+    height: 45px;
+    /* border-color: ; */
+    border: 1px solid rgb(164, 161, 161) ;
+    border-radius: 5px;
+    padding: 10px auto !important;
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+    /* margin-left: -1px; */
+
+}
+.input_file{
+
+    width: 80%;
+    font-size: 16px;
+    margin: 20px;
+
+}
+
+.group_last{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* font-size: 20px; */
+
+}
+
+.milestones,.publish{
+
+    font-size: 20px;
+    padding: 13px;
+    border-radius: 7px;
+    border: 1px solid rgb(170, 167, 167);
+    /* font-weight: 00; */
+    cursor: pointer;
+
+
+    
+}
+.milestones{
+    background-color: #fff;
+}
+
+.publish{
+    background-color: black;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    .campaign_form{
+        width: 60vw;
+    }
+
+.campaign_head{
+    font-size: 40px;
+}
+.form{
+    font-size: 22px;
+}
+
+.input
+{
+    height: 40px;
+}
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .campaign_head{
+        font-size: 32px;
+    }
+
+    .campaign_form{
+        width: 75vw;
+    }
+
+}

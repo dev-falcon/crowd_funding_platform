@@ -23,18 +23,20 @@ export default function Home() {
       </Head>
 
 
-      <body>
+      <div className={styles.all}>
+
+      
 
         <div className={styles.header_section}>
           <div className="left_header">
-            <p>Cmpny Name</p>
+            <p>INVESTin</p>
           </div>
 
           <div className="mid_header">
             <ul className={styles.mid_ul}>
               <li>Home</li>
               <li>About Us</li>
-              <li>Help</li>
+              <li>Connect Wallet</li>
 
             </ul>
 
@@ -42,7 +44,7 @@ export default function Home() {
           </div>
 
           <div className="right_header">
-            <p>SignUP/Login</p>
+            <p>Start Campaign</p>
           </div>
         </div>
 
@@ -97,7 +99,7 @@ export default function Home() {
 
               <div className={styles.campaign_title}>
                 <p>
-                  Crowd Funding For Nothing
+                  Crowd Fund raising for startip-2
                 </p>
 
                 <p className={styles.campaign_by}>
@@ -116,20 +118,20 @@ export default function Home() {
               <div className={styles.campaign_lower_part}>
 
                 <span>
-                  0% <br />
+                  5% <br />
                   Progress
 
                 </span>
 
                 <span>
-                  0 ETH
+                  2 ETH
                   <br />
                   Raised
 
                 </span>
 
                 <span>
-                  69
+                  6
                   <br />
                   days left
                 </span>
@@ -155,7 +157,7 @@ export default function Home() {
 
               <div className={styles.campaign_title}>
                 <p>
-                  Crowd Funding For Nothing
+                  Crowd Fundraising For Startup-2
                 </p>
 
                 <p className={styles.campaign_by}>
@@ -174,20 +176,20 @@ export default function Home() {
               <div className={styles.campaign_lower_part}>
 
                 <span>
-                  0% <br />
+                  10% <br />
                   Progress
 
                 </span>
 
                 <span>
-                  0 ETH
+                  5 ETH
                   <br />
                   Raised
 
                 </span>
 
                 <span>
-                  69
+                  9
                   <br />
                   days left
                 </span>
@@ -217,7 +219,7 @@ export default function Home() {
 
               <div className={styles.campaign_title}>
                 <p>
-                  Crowd Funding For Nothing
+                Crowd Fundraising For Startup-3
                 </p>
 
                 <p className={styles.campaign_by}>
@@ -236,20 +238,20 @@ export default function Home() {
               <div className={styles.campaign_lower_part}>
 
                 <span>
-                  0% <br />
+                  15% <br />
                   Progress
 
                 </span>
 
                 <span>
-                  0 ETH
+                  3 ETH
                   <br />
                   Raised
 
                 </span>
 
                 <span>
-                  69
+                  12
                   <br />
                   days left
                 </span>
@@ -287,10 +289,10 @@ export default function Home() {
 
 
 
-      </body>
+      
 
 
-
+</div>
 
 
 

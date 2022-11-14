@@ -1,14 +1,23 @@
+.all{
+  overflow-x: hidden;
+  position: absolute;
+}
 .header_section{
   width: 100vw;
-  background-color: aliceblue;
+  background-color: #212121;
+  border: 1px solid rgba(206, 206, 206, 0.778);
+  color: white;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 10px;
-  font-size: 18px;
- border-bottom: 1px solid rgba(36, 35, 35, 0.493);
- box-shadow: 0 2px rgba(241, 238, 238, 0.842);
- border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  position: fixed;
+  
+
+ 
+ 
 
 
 }
@@ -30,6 +39,7 @@
   align-items: center;
   /* justify-content: center; */
   flex-direction: column;
+  margin-top: 2rem;
 }
 
 .middle_part_qsn{
@@ -74,7 +84,7 @@
   justify-content: center;
   flex-direction: column;
   border: 1px solid rgb(254, 254, 254);
-  width: 26vw;
+  width: 25vw;
   padding: 18px;
 }
 
