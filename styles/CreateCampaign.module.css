@@ -10,7 +10,7 @@
     font-weight: 700;
     text-align: center;
     margin-left: -3rem;
-    margin-top: 3rem;
+    margin-top: 0rem;
 }
 
 .campaign_form{
@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    padding: 30px;
+    padding: 20px;
     margin: 2rem auto 1rem auto;
     box-shadow: 10px 10px 20px  rgba(181, 178, 178, 0.781);
 }
@@ -37,15 +37,12 @@
 
 }
 
-.group{
-    /* padding: px; */
 
-}
 
 .input{
     width: 95%;
-    margin: 20px;
-    height: 45px;
+    margin: 15px;
+    /* height: 40px; */
     /* border-color: ; */
     border: 1px solid rgb(164, 161, 161) ;
     border-radius: 5px;

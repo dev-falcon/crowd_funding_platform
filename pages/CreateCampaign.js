@@ -28,11 +28,13 @@ const CreateCampaign = () => {
 
             <div className={styles.group}>
 
-            <label for={styles.campaignDesc}> Campaign Description : </label>
+<label for="campaignName"> Amount To Be Raised : </label>
 
-            <textarea className={styles.input} name="" id="" cols="30" rows="4"></textarea>
+<input type="text" className={styles.input} />
 
-            </div>
+</div>
+
+          
 
 
             <div className={styles.group}>
@@ -44,15 +46,20 @@ const CreateCampaign = () => {
             </div>
 
 
+           
+
             <div className={styles.group}>
 
-            <label for="campaignName"> Amount To Be Raised : </label>
+<label for={styles.campaignDesc}> Campaign Description : </label>
 
-            <input type="text" className={styles.input} />
+<textarea className={styles.input} name="" id="" cols="30" rows="4"></textarea>
 
-            </div>
+</div>
 
             <div className={styles.group_last}>
+
+
+            
 
 <input type="button" value="Add Milestones" className={styles.milestones} />
 <input type="submit" value="Publish" className={styles.publish} />

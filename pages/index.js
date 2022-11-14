@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-// import Slider from "react-slick";
+
+
 
 import styles from '../styles/Home.module.css'
 import imgs from "../public/campaign_img.png"
+
 
 
 
@@ -27,26 +29,8 @@ export default function Home() {
 
       
 
-        <div className={styles.header_section}>
-          <div className="left_header">
-            <p>INVESTin</p>
-          </div>
-
-          <div className="mid_header">
-            <ul className={styles.mid_ul}>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Connect Wallet</li>
-
-            </ul>
 
 
-          </div>
-
-          <div className="right_header">
-            <p>Start Campaign</p>
-          </div>
-        </div>
 
 
 
@@ -94,7 +78,13 @@ export default function Home() {
             <div className={styles.campaign}>
 
               <div className={styles.campaign_img}>
-                <img src={imgs} alt="some img" />
+                {/* <img src={imgs} alt="some img" /> */}
+
+                <Image src={imgs} 
+                 width={350}
+                height={230} />
+
+                
               </div>
 
               <div className={styles.campaign_title}>
@@ -152,7 +142,9 @@ export default function Home() {
             <div className={styles.campaign}>
 
               <div className={styles.campaign_img}>
-                <img src="" alt="some img" />
+              <Image src={imgs} 
+                 width={350}
+                height={230} />
               </div>
 
               <div className={styles.campaign_title}>
@@ -214,7 +206,9 @@ export default function Home() {
             <div className={styles.campaign}>
 
               <div className={styles.campaign_img}>
-                <img src="" alt="some img" />
+              <Image src={imgs} 
+                 width={350}
+                height={230} />
               </div>
 
               <div className={styles.campaign_title}>
