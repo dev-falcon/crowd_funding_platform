@@ -1,0 +1,122 @@
+.main_campaign_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.campaign_left{
+    flex: 0.5;
+}
+
+.campaign_right{
+    flex: 0.3;
+}
+
+.upper_section_title{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.upper_section_desc{
+    font-size: 22px;
+    text-align: left;
+
+}
+
+.campaign_left_Lower_section{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.lower_group>label{
+
+    font-size: 24px;
+    /* margin:  0; */
+
+}
+
+.lower_group>input{
+    width: 80%;
+    height: 40px;
+    margin: 20px;
+    border-radius: 11px;
+    border: 1px solid rgba(101, 100, 100, 0.526);
+}
+
+.dates_section{
+        display: block;
+}
+
+.dates_section>input{
+    width: 40%;
+    height: 35px;
+    margin: 18px;
+    border-radius: 11px;
+    border: 1px solid rgba(101, 100, 100, 0.526);
+}
+.milestones{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+}
+
+.milestones>label{
+
+    font-size: 24px;
+    margin-bottom: 1em;
+    /* margin: 10px; */
+    /* margin-bottom: 2rem; */
+
+}
+
+.milestones>select{
+
+    width: 70%;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 11px;
+    border: 1px solid rgba(101, 100, 100, 0.526);
+
+}
+
+.right_group{
+    border: 1px solid rgba(218, 216, 216, 0.854);
+    width: 100%;
+    padding: 20px;
+    margin: 40px 0;
+    border-radius: 15px;
+    box-shadow: 5px 5px   rgba(229, 227, 227, 0.687);
+    font-size: 22px;
+
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around;
+
+}
+
+.right_group>input{
+    width: 100%;
+    height: 40px;
+    border-radius: 11px;
+    border: 1px solid rgba(101, 100, 100, 0.526);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.payment_btn{
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    width: 80% !important;
+    margin: 14px auto !important;
+    border-radius: 10px !important;
+    border: 1px solid black !important;
+}
+
+

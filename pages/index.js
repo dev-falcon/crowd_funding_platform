@@ -81,7 +81,7 @@ export default function Home() {
                 {/* <img src={imgs} alt="some img" /> */}
 
                 <Image src={imgs} 
-                 width={350}
+                 width={380}
                 height={230} />
 
                 
@@ -143,7 +143,7 @@ export default function Home() {
 
               <div className={styles.campaign_img}>
               <Image src={imgs} 
-                 width={350}
+                 width={380}
                 height={230} />
               </div>
 
@@ -207,7 +207,7 @@ export default function Home() {
 
               <div className={styles.campaign_img}>
               <Image src={imgs} 
-                 width={350}
+                 width={380}
                 height={230} />
               </div>
 
